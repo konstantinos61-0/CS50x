@@ -1,6 +1,6 @@
 # CS50x
 This repository contains all of my solutions for the 9 Problem Sets of HarvardX's CS50x: Introduction to Computer Science.  
-Each week of the course includes a problem set for students to solve, from 1 to 9. Every set is individually documented within the appropriately named folders (`psetX` for problem set X)  
+Each week of the course includes a problem set for students to solve, from 1 to 9. In this repository, every set is individually documented within the appropriately named folder (`psetX` for problem set X). 
 
 ## Week 1 — C
 ## Week 2 — Arrays
