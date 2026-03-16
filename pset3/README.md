@@ -1,5 +1,5 @@
 ## Week 3 — Algorithms
-This week covers the following topics: design and efficacy (Big O Notation) of algorithms through pseudocode and code, search algorithms (binary, linear), sort algorithms (selection, bubble, merge) and recursion.
+This week covers the following core topics: design and efficacy (Big O Notation) of algorithms through pseudocode and code, search algorithms (binary, linear), sort algorithms (selection, bubble, merge) and recursion.
 ### Sort
 In this problem, I analyzed three (compiled) sorting C programs, each implementing a different sorting algorithm for a sequence of numbers. I had to find out which sorting algorithm each program uses. My answers are recorded inside `PSET3/sort/answers.txt` along with an explanation for each program.  
 **Distribution Code**: Availble at:  https://cdn.cs50.net/2026/x/psets/3/sort.zip (accessed 16/3/2026). It includes the 3 compiled programs sort1, sort2, sort3 as well as several .txt files used as input and the answers.txt file to fill in my answers. The input files contain `n` lines of integer values, either reversed, shuffled, or sorted. 
