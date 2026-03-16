@@ -45,5 +45,9 @@ I studied and understood the `movies.db` schema and wrote one sql query in each 
 
 
 ### Fiftyville
-In this problem, TODO.  
-**Distribution Code**: Availble at:  (accessed ). I read and understood it and then moved on to implement the following: TODO 
+In this problem, I solved a fictional mystery, "the mystery of the stolen CS50 duck of Fiftyville town" just by quering a SQLite database using SELECT's. In this fictional world, a thief with an accomplice stole the duck from Fiftyville. The town's authorities gathered some of the town's records from around the time of the theft into a SQLite relational database for me.  
+**Distribution Code**: Availble at: https://cdn.cs50.net/2026/x/psets/7/fiftyville.zip (accessed 16/3/2026). It includes:
+- `fiftyville.db`: The database given to me, containing tables of data from around the town.
+- `log.sql`: A file for me to log the investigation process, that is, my SQL queries as I solve the mystery.
+- `answers.txt`: A file for me to document my answers to the mystery: Who the thief is, what city the thief escaped to, and who the thief’s accomplice is.
+I studied the database's schema and begun unfolding the mystery, logging my process along the way inside `log.sql`.
