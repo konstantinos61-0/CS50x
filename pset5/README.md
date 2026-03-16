@@ -5,6 +5,7 @@ A C program that simulates the inheritance of blood types for each member of a f
 **Usage**: ./inheritance  
 **Distribution Code**: Availble at: https://cdn.cs50.net/2026/x/psets/5/inheritance.zip (accessed 16/3/2026). I read and understood it and then moved on to complete the following functions: create_family and free_family.
 
-### PROBLEM TITLE
-In this problem, TODO.  
-**Distribution Code**: Availble at:  (accessed ). I read and understood it and then moved on to implement the following: TODO 
+### Speller
+A C program that spell-checks a file using a hash table. .  
+**Usage**: ./speller dictionary text_input_file  
+**Distribution Code**: Availble at: https://cdn.cs50.net/2026/x/psets/5/speller.zip (accessed 16/3/2026). I read and understood it and then moved on to implement the following: TODO 
