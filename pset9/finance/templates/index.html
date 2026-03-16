@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+        <table class="table table-bordered mx-auto">
+            {% if stocks %}
+                <thead>
+                    <tr>
+                        <td>Symbol</td>
+                        <td>Shares</td>
+                        <td>Price</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for stock in stocks %}
+                        <tr>
+                            <td> {{ stock.symbol }}</td>
+                            <td>{{ stock.shares_tot }}</td>
+                            <td>{{ stock.current_price | usd }}</td>
+                            <td>{{ stock.total_value | usd }}</td>
+                        </tr>
+                    {% endfor %}
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Cash</td>
+                        <td>{{ user_cash | usd }}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>TOTAL</td>
+                        <td>{{ total | usd }}</td>
+                    </tr>
+                </tbody>
+            {% else %}
+            <tr>
+                <td>Cash</td>
+                <td>{{ total | usd }}</td>
+            </tr>
+            {% endif %}
+        </table>
+{% endblock %}
