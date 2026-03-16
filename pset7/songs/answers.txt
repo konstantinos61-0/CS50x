@@ -1,0 +1,14 @@
+Supposing that the songs.db containts the top 100 songs for a certain person
+in the past year. Determining their audio aura would definately have to do with
+the average energy, danceability, and valence of those 100 songs. So, calcu-
+lating the total average of those columns over all songs should be a good start to
+the solution of the problem.
+
+However, i think that we should include the AVG of the columns tempo,
+loudness and speechiness to paint a clearer picture of this so called
+'audio aura'.
+
+Another adjustment i would suggest is to average over those attributes of
+their top arists (say to 3). This way the algorithm would group the top artists
+of that person and take that into account to paint a picture of their most
+prominent aura
