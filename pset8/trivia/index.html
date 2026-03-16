@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function ()
+            {
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = "green";
+                    document.querySelector('#mult').innerHTML = "Correct answer!";
+                });
+
+                let incorrects = document.querySelectorAll('.incorrect');
+                for (let i = 0; i < incorrects.length; i++)
+                {
+                    incorrects[i].addEventListener('click', function(){
+                        document.querySelector('#mult').innerHTML = "Wrong Answer";
+                        incorrects[i].style.backgroundColor = "red";
+                    });
+                }
+
+                let free = document.querySelector('#free');
+                free.addEventListener('click', function() {
+                    let input = document.querySelector('input')
+                    if (input.value == 'Greece') {
+                        document.querySelector('#feedback2').innerHTML = 'Correct!';
+                        free.style.backgroundColor = 'green';
+                    }
+                    else {
+                        document.querySelector('#feedback2').innerHTML = 'Wrong';
+                        free.style.backgroundColor = 'red';
+                    }
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                 <h3>Which public figure is said the following quote: "In the middle of difficulty lies opportunity."</h3>
+                 <p id="mult"></p>
+                 <button class="correct">Albert Einstein</button>
+                 <button class="incorrect">Erwin Schrödinger</button>
+                 <button class="incorrect">Michael Jackson</button>
+                 <button class="incorrect">Donald Trump</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                 <h3>In which country is the island "Mykonos" located in?</h3>
+                 <p id="feedback2"></p>
+                 <input type="text" placeholder="Answer">
+                 <button id="free">Check answer</button>
+            </div>
+        </div>
+    </body>
+</html>

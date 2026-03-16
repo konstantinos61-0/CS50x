@@ -1,0 +1,20 @@
+body {
+    background-color: #99ccff;
+    font-family: Calibri, Ariel
+}
+ .titles {
+    text-align: center;
+ }
+
+ footer {
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+ }
+
+ .links {
+    text-align: center;
+ }
+
+
+

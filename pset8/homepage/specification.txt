@@ -1,0 +1,11 @@
+HTML tags:
+header, footer, p, br, div, a, img, iframe, button, b
+
+CSS properties:
+background-color, font-family, text-align, font-size, position
+
+Javascript:
+I included buttons with onclick events to change background color
+
+Bootstrap:
+I used bootstraps classes for buttons btn
