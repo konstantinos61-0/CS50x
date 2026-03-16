@@ -1,0 +1,18 @@
+sort1 uses: Bubble sort
+
+How do you know?: runtime for 10000 numbers: Worst Case (reversed): 0.207s      Best Case (sorted): 0.043s
+                  runtime for 50000 numbers: Worst Case (reversed): 5.248s      Best Case (sorted): 0.768s
+    This program runs much slower in the worst case senario, than the best case senario of each file. Since, bubble sort is O(n^2) but Ω(n), sort1 is the bubble sort
+sort2 uses: merge sort
+
+How do you know?: runtime for 10000 numbers: Worst Case (reversed): 0.036s      Best Case (sorted): 0.040s
+                  runtime for 50000 numbers: Worst Case (reversed): 0.829s      Best Case (sorted): 0.918s
+    This program has about the same runtime for the worst and best case senarios of each file. So, its either merge sort or selection sort which are in the order of Θ. Sort 2
+    has lower runtimes than sort 3 in each file for each senario respectively. Thus, i conclude that sort2 is merge sort, which is Θ(nlogn)
+
+sort3 uses: Selection sort
+
+How do you know?: runtime for 10000 numbers: Worst Case (reversed): 0.145s     Best Case (sorted): 0.134s
+                  runtime for 50000 numbers: Worst Case (reversed): 3.433s     Best Case (sorted): 3.410s
+    This program has about the same runtime for the worst and best case senarios of each file. So, its either merge sort or selection sort which are in the order of Θ. Sort 3
+    has higher runtimes than sort 2 in each file for each senario respectively. Thus, i conclude that sort3 is selection sort, which is Θ(n^2)
