@@ -8,5 +8,6 @@ In this problem, I designed a webpage using HTML, CSS, and JavaScript to let use
 I read and understood those 2 files and then extended the index.html by adding proper HTML elements for the trivia questions and a script tag for the JavaScript. Javascript makes the website interactive so that the users know when they answered correctly/incorrectly.
 
 ### Homepage
-In this problem, I built a simple homepage using HTML, CSS, and JavaScript.
-**Distribution Code**: Availble at:  (accessed ). I read and understood it and then moved on to implement the following: TODO 
+In this problem, I built a simple homepage using HTML, CSS, and JavaScript.  
+**Distribution Code**: Availble at: https://cdn.cs50.net/2026/x/psets/8/homepage.zip (accessed 16/3/2026). It includes and empty styles.css file and a mostly empty `index.html` that just links to the Bootstrap library.  
+I created my homepage including 4 hyper-linked web-pages, some basic CSS and JavaScript.
