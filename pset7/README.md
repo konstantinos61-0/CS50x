@@ -6,9 +6,9 @@ In this problem, I wrote SQL queries to answer questions about a database of the
 **Distribution Code**: Availble at: https://cdn.cs50.net/2026/x/psets/7/songs.zip (accessed 16/3/2026). It includes:
 - `songs.db`: the SQLite database that stores data from Spotify about songs and their artists.
 - 1-8 empty `.sql` files: Should be filled with my answers to each question from 1 to 8.
-- answers.txt: empty file for me to answer the final question
+- `answers.txt`: empty file for me to answer the final question
 
-I studied the schema of the songs.db database and wrote one sql query in each .sql file to:
+I studied the schema of the songs.db database and wrote one sql query in each `.sql` file to:
 1. List the names of all songs in the database.
 2. List the names of all songs in increasing order of tempo. 
 3. List the names of the top 5 longest songs, in descending order of length. 
@@ -18,17 +18,17 @@ I studied the schema of the songs.db database and wrote one sql query in each .s
 7. Return the average energy of songs that are by Drake.
 8. List the names of the songs that feature other artists.
 
-I also answered the following questions inside answers.txt:
+I also answered the following questions inside `answers.txt`:
 - If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura (as defined by Spotify Wrapped)?
 - Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
 
 
 ### Movies
-In this problem, I wrote SQL queries to answer questions about a SQLite database that stores data from IMDb about movies, the people who directed and starred in them, and their ratings.
+In this problem, I wrote SQL queries to answer questions about a SQLite database that stores data from IMDb about movies, the people who directed and starred in them, and their ratings.  
 **Distribution Code**: Availble at: https://cdn.cs50.net/2026/x/psets/7/movies.zip (accessed 16/3/2026). It includes:
-- `movies.db`: the SQLite database that stores the movie data from IMDb.
+- `movies.db`: the SQLite database that stores the movies data from IMDb.
 -  13 .sql empty files for me to fill my answers in.
-I studied and understood the `movies.db` schema and wrote one sql query in each .sql file to:
+I studied and understood the `movies.db` schema and wrote one sql query in each `.sql` file to:
 1. List the titles of all movies released in 2008. 
 2. Determine the birth year of Emma Stone. 
 3. List the titles of all movies with a release date on or after 2018, in alphabetical order.
