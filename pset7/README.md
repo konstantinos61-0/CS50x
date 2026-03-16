@@ -50,4 +50,4 @@ In this problem, I solved a fictional mystery, "the mystery of the stolen CS50 d
 - `fiftyville.db`: The database given to me, containing tables of data from around the town.
 - `log.sql`: A file for me to log the investigation process, that is, my SQL queries as I solve the mystery.
 - `answers.txt`: A file for me to document my answers to the mystery: Who the thief is, what city the thief escaped to, and who the thief’s accomplice is.
-I studied the database's schema and begun unfolding the mystery, logging my process along the way inside `log.sql`.
+I studied the database's schema and tables, and begun unfolding the mystery, logging my process along the way inside `log.sql`.
