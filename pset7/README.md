@@ -33,7 +33,7 @@ I studied and understood the `movies.db` schema and wrote one sql query in each 
 2. Determine the birth year of Emma Stone. 
 3. List the titles of all movies with a release date on or after 2018, in alphabetical order.
 4. Determine the number of movies with an IMDb rating of 10.0. 
-5. List the titles and release years of all Harry Potter movies, in chronological order. 
+5. List the titles and release years of  all Harry Potter movies, in chronological order. 
 6. Determine the average rating of all movies released in 2012. 
 7. List all movies released in 2010 and their ratings, in descending order by rating. For movies with the same rating, order them alphabetically by title. 
 8. List the names of all people who starred in Toy Story. 
