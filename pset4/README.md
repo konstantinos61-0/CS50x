@@ -1,7 +1,7 @@
 ## Week 4 — Memory
 This week covers the following core topics: binary data representation, computer memory, pointers, strings as char pointers, pointer arithmetic, malloc, valgrind, overflow and FILE I/O.
 ### Volume
-A C program that modifies the volume of an input WAV audio file by a given factor and writes it to an output WAV file. The executable is built by executing the `make` command, like so `make filter` producing an executable named filter. 
+A C program that modifies the volume of an input WAV audio file by a given factor and writes it to an output WAV file. The executable is built by executing the `make` or `make filter` to produce an executable named `filter`. 
 **Usage**: ./volume input.wav output.wav factor  
 **Distribution Code**: Availble at https://cdn.cs50.net/2026/x/psets/4/volume.zip (accessed 16/3/2026). I read and understood it and then moved on to write code that handles the following functionality:
 - Copy WAV header from input file to output file.
